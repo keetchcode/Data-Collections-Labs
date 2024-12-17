@@ -14,6 +14,7 @@ extension Data {
 }
 
 //----------------begin-student------------
+
 var urlComponents = URLComponents(string: "https://itunes.apple.com/search")!
 urlComponents.queryItems = [
     "term": "Apple",
@@ -31,6 +32,8 @@ Task {
     }
 }
 //----------------end-student--------------
+
+
 //----------------begin-teacher------------
 struct StoreItem: Codable {
     let name: String
