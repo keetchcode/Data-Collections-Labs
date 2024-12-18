@@ -1,6 +1,12 @@
 import UIKit
 
-let queryDictionary: [String: String] = ["term": "Yoke Lore", "country": "US", "media": "music", "limit": "10", "entity": "musicTrack"]
+let queryDictionary: [String: String] = [
+  "term": "Yoke Lore",
+  "country": "US",
+  "media": "music",
+  "limit": "10",
+  "entity": "musicTrack"
+]
 
 let url = URL(string: "https://itunes.apple.com/search")!
 
