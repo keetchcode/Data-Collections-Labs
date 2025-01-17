@@ -8,4 +8,3 @@ class StoreItemListTableViewController: UITableViewController {
     tableView.deselectRow(at: indexPath, animated: true)
   }
 }
-
